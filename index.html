@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>항공서비스과 전공 소개 웹페이지</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>항공서비스과 전공 소개</h1>
+    <p>고객 응대와 서비스 마인드를 웹 콘텐츠로 표현</p>
+    <button onclick="toggleMode()">다크모드</button>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>전공 소개</h2>
+      <p>
+        항공서비스과 전공으로 객실 승무원의 서비스 마인드와
+        고객 만족의 중요성에 대해 배우고 있습니다.
+        이 웹페이지는 수업에서 배운 웹 기술을
+        전공과 연결해 정리해보고자 제작했습니다.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>기내 서비스 상황 예시</h2>
+      <button onclick="showService()">서비스 예시 보기</button>
+      <p id="service-text">버튼을 눌러 예시를 확인하세요.</p>
+    </section>
+
+    <section class="card">
+      <h2>승무원 핵심 역량</h2>
+      <ul>
+        <li>고객 응대 능력</li>
+        <li>위기 상황 대처 능력</li>
+        <li>팀워크와 커뮤니케이션</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>웹 콘텐츠 수업 기말과제 | 항공서비스과</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
