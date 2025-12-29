@@ -1,0 +1,8 @@
+function toggleMode() {
+  document.body.classList.toggle("dark");
+}
+
+function showService() {
+  document.getElementById("service-text").innerText =
+    "기내에서 고객이 불편을 호소할 경우, 승무원은 침착하고 친절한 태도로 응대하여 고객 만족을 높입니다.";
+}
