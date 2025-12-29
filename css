@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: #2c6bed;
+  color: white;
+  padding: 30px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: white;
+  color: #2c6bed;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #dbe5ff;
+}
+
+.card {
+  background: white;
+  width: 70%;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  margin: 40px 0;
+  color: gray;
+}
+
+/* 다크모드 */
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark .card {
+  background: #1e1e1e;
+}
+
+.dark header {
+  background: #000;
+}
